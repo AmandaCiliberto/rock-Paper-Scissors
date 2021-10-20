@@ -8,12 +8,33 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="titleContainer">
-        <h1>Rock    Paper    Scissors</h1>
+
+    <div>
+        
+        <div class="titleContainer">
+            <h1>Rock    Paper    Scissors</h1>
+        </div>
+
+        <div id="choices">
+            <button id="rock" onclick= "game('rock')"></button>
+            <button id="paper" onclick= "game('paper')"></button>
+            <button id="scissors" onclick= "game('scissors')"></button>
+        </div>
+
+        <div id="scoreText">
+            <h3 id="computerScore"> </h3>
+            <h3 id="playerScore"> </h3>
+            <h3 id="tie"> </h3>
+            <h3 id="score"> </h3>
+        </div>
+
+        <!-- <div id="repeatGame">
+            <button id="playAgain" onclick="endGame()">Click here to play again</button>
+        </div> -->
+
+
     </div>
-
-    <button id="rock" onclick=""
-
+    
     <script src="javaScript.js"></script>
 </body>
 </html>
