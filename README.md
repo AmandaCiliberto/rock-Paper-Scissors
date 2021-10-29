@@ -1,2 +1,2 @@
 # rock-Paper-Scissors
-A console version of the rock paper scissors game
+The infamous rock, paper, scissors game. Now in an 80's inspired version!
